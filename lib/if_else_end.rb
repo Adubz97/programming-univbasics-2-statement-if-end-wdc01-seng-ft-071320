@@ -2,10 +2,10 @@
 
 
 
-Current_time =Time.now
+Current_time = Time.now
+Current_time = Current_time.to_i
 
-
-if blah blah
+if Current_time % 2 == 0
   puts "Even!"
 else
   puts "Odd!"
